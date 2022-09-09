@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promo Sur</title>
+    <link rel="shortcut icon" href="../img/promo.ico">
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="../img/promo.png" alt="logo" width="50">Promo Sur </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="productos.html">Todos</a></li>
+                   <div class="dropdown-divider"></div>
+                  <li><a class="dropdown-item" href="#">Hamburguesas</a></li>
+                  <li><a class="dropdown-item" href="#">Quesos</a></li>
+                  <li><a class="dropdown-item" href="#">Aderesos</a></li>
+                  <li><a class="dropdown-item" href="#">Snacks</a></li>
+                  <li><a class="dropdown-item" href="#">Prod. Vegan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Promos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--finnavbar-->
+
+    <!--carrosel-->
+    <div id="carouselExampleIndicators" class="carousel slide justify-content-center" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../img/porta2.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../img/porta2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../img/portadahamburguesaskadfj.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+    <!--fin-carro-->
+      <h4>Filtrar:</h4>
+      <input class="form-control mb-3 mt-2 container" type="text" placeholder="Buscar producto...">
+    <!--botonera-->
+    <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Precio
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Más caro</a></li>
+          <li><a class="dropdown-item" href="#">Más barato</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Marca
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Paladini</a></li>
+          <li><a class="dropdown-item" href="#">Swift</a></li>
+          <li><a class="dropdown-item" href="#">Vegetalex</a></li>
+          <li><a class="dropdown-item" href="#">Paty</a></li>
+          <li><a class="dropdown-item" href="#">Vienisima</a></li>
+          <li><a class="dropdown-item" href="#">La Serenisima</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Tipo
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Hamburguesa</a></li>
+          <li><a class="dropdown-item" href="#">Fiambres</a></li>
+          <li><a class="dropdown-item" href="#">Salchichas</a></li>
+          <li><a class="dropdown-item" href="#">Snacks</a></li>
+          <li><a class="dropdown-item" href="#">Aderesos</a></li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+        Novedades
+      </button>
+      </div>
+    <!--finbotonera-->
+
+    <!--productos-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/hamb-paladini.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Paladini</h5>
+                    <p class="card-text">Paquete x2 unidades</p>
+                    <a href="#" class="btn btn-warning btn-lg">$500</a>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card h-80">
+                    <img src="../img/productos/hamb-paty.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Paty</h5>
+                    <p class="card-text">Paquete x4 unidades</p>
+                    <a href="#" class="btn btn-warning">$800</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/salchi-vienissima.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Swift</h5>
+                    <p class="card-text">Paquete x2 unidades</p>
+                    <a href="#" class="btn btn-warning">$499.99</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/vegetalex_burger.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Vegetalex</h5>
+                    <p class="card-text">Hamb. veganas x2 unidades</p>
+                    <a href="#" class="btn btn-warning">$700</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/funburgers-paladini.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Fun Burgers Paladini</h5>
+                    <p class="card-text">Hamburguesa de Cerdo x2</p>
+                    <a href="#" class="btn btn-warning">$650</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/Salchichas-Paladini.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Paladini</h5>
+                    <p class="card-text">Paquete x2 unidades</p>
+                    <a href="#" class="btn btn-warning btn-lg">$500</a>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/queso_laserenisma.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Paladini</h5>
+                    <p class="card-text">Paquete x2 unidades</p>
+                    <a href="#" class="btn btn-warning btn-lg">$500</a>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/salchi-fela.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Paladini</h5>
+                    <p class="card-text">Paquete x2 unidades</p>
+                    <a href="#" class="btn btn-warning btn-lg">$500</a>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/queso-cremoso-cremac.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Paladini</h5>
+                    <p class="card-text">Paquete x2 unidades</p>
+                    <a href="#" class="btn btn-warning btn-lg">$500</a>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/salchi-swift.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Paladini</h5>
+                    <p class="card-text">Paquete x2 unidades</p>
+                    <a href="#" class="btn btn-warning btn-lg">$500</a>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/funburgers-paladini.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Paladini</h5>
+                    <p class="card-text">Paquete x2 unidades</p>
+                    <a href="#" class="btn btn-warning btn-lg">$500</a>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="col-md-3 mt-4 col-xs-5">
+                <div class="card">
+                    <img src="../img/productos/vegetalex_burger.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Hamburguesa Paladini</h5>
+                    <p class="card-text">Paquete x2 unidades</p>
+                    <a href="#" class="btn btn-warning btn-lg">$500</a>
+                    </div>
+                </div>
+            </div>    
+
+            </div>
+        </div>
+      </div>
+
+    <!--findproductos-->
+
+    <!--pag-->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center  mt-4">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Anterior</a>
+          </li>
+          <li class="page-item"><a class="page-link active" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Siguiente</a>
+          </li>
+        </ul>
+      </nav>
+    <!--finpag-->
+
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
